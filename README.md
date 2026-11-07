@@ -3,7 +3,8 @@
 **Asset Creator** — аддон для Blender, предназначенный для автоматизации рабочего процесса подготовки 3D-ассетов, организации структуры сцены, моделинга и риггинга.
 
 Аддон предоставляет набор инструментов для создания стандартной иерархии коллекций, автоматического именования объектов и данных, настройки модификаторов, создания простых ригов и проверки технического качества ассетов.
-Панель разделена на несколько блоков для удобства и разных задач
+Панель разделена на несколько блоков для удобства и разных задач.
+Это студийный аддон для работы, поэтому он жестко привязан к названию файла .blend на английском, четкому, такому же названию основной коллекции, где будет лежать объекты с суффиксом_main, в котором в свою очередь должна лежать коллекция _geo
 
 <img width="1920" height="1080" alt="Снимок экрана — 2026-11-07 в 17 46 46" src="https://github.com/user-attachments/assets/3c620e6e-becf-4f0b-8808-89fa7b1eaa08" />
 
@@ -32,6 +33,14 @@ Scene Tools — дополнительные инструменты для пр�
 Asset Tools is a Blender add-on designed to streamline 3D asset preparation, scene organization, modeling, and rigging workflows.
 
 It provides a collection of tools for automatically creating collection hierarchies, managing object and data naming conventions, configuring modifiers, generating simple rigs, and validating technical asset requirements.
+The panel is divided into several blocks for convenience and different tasks. 
+
+Since this is a studio workflow addon, it strictly requires:
+1. A clear **English name** for the `.blend` file.
+2. The **main collection** named exactly the same as the file.
+3. Objects inside it must have the `_main` suffix.
+4. A nested `_geo` collection inside the main one.
+
 
 Main Features
 
