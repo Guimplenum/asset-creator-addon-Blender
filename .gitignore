@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS system files
+.DS_Store
+
+# Python cache (created by Blender when compiling the script)
+__pycache__/
+*.pyc
+
+# Blender backups and crash logs
+*.blend1
+*.blend2
+*.blend@
+*.crash.txt
+
+# Editor-specific settings (VS Code)
+.vscode/
