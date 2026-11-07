@@ -25,7 +25,7 @@ Scene Tools — дополнительные инструменты для пр�
 
 Все инструменты собраны в одной панели 3D Viewport → N-Panel → Assets.
 
-🇬🇧 English
+ English
 
 Asset Tools is a Blender add-on designed to streamline 3D asset preparation, scene organization, modeling, and rigging workflows.
 
